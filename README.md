@@ -6,8 +6,8 @@ It is inspired base on https://github.com/pedroslopez/whatsapp-web.js
 
 1. npm install.
 2. The server will start on port 3030 (http://127.0.0.1:3030).
-3. access to /generate (GET REQUEST) to generate QR code for Whatsapp API.
-4. Copy the imageUrl response and scan it with your Whatsapp app.
+3. Access to /generate (GET REQUEST) to generate QR code for Whatsapp API.
+4. Copy the imageUrl response, open it on browser, and scan it with your Whatsapp app.
 5. After you got the "Client is Ready!" response in the console, you can now send message or send media message to other Whatsapp User.
 
 # SEND MESSAGE
