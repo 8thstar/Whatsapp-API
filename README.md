@@ -40,11 +40,20 @@ number : number to send<br/>
 message : caption for file<br/><br/>
 
 
-Example : <br />
+Example (Multiple Numbers) : <br />
 
-file : media.pdf<br />
-number : 6285267671232, 628231212444, 625234345656<br />
-message: this is the test caption<br/><br/>
+file : media.pdf (file)<br />
+number : 6285267671232, 628231212444, 625234345656 (String or Number)<br />
+message: this is the test caption (String or Number)<br/><br />
+
+
+Example (Single Number) : <br />
+
+file : media.pdf (file)<br />
+number : 6285267671232 (String or Number)<br />
+message: this is the test caption (String or Number)
+
+
 
 
 <br />
