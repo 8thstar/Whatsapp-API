@@ -65,7 +65,7 @@ const uploadMediaFileMiddleware = (req, res, next) => {
 	});
 };
 
-app.get("/createSession", createSessionMiddleware, (req, res) => {
+app.get("/generate", createSessionMiddleware, (req, res) => {
 	const { imageUrl } = req.data;
 
 	res.json({
