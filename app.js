@@ -128,11 +128,13 @@ app.post("/sendMedia", uploadMediaFileMiddleware, async (req, res) => {
 			res.json({ status: "success", message: response });
 			res.end();
 		} else {
-			const send = await client.sendMessage(postNumber, media);
+			//const send = await client.sendMessage(postNumber, media);
 
-			if (caption.trim() !== "") {
-				await client.sendMessage(postNumber, postMessage);
-			}
+			//if (caption.trim() !== "") {
+				//await client.sendMessage(postNumber, postMessage);
+			//}
+			let receipt = `${postNumber}@c.us`;
+			const send = await client.sendMessage(receipt, media,{caption:postMessage});
 			res.json({ status: "success", message: send });
 			res.end();
 		}
